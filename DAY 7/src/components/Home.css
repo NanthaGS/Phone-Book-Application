@@ -1,0 +1,63 @@
+.home-container {
+  margin: 20px;
+}
+
+.home-title {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  /* padding: 100px; */
+}
+
+.contact-details {
+  margin-top: 50px;
+  padding: 20px;
+  background: hsla(154, 53%, 82%, 1);
+  background: linear-gradient(45deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+  /* background:linear-gradient(45deg,black,darkgrey,red,orange) */
+}
+
+.ab{
+  font-size: 40px;
+  color:black;
+  font-weight: bolder;
+}
+p{
+  font-size:large;
+  font-size:25px;
+  color:black;
+  font-weight:bold;
+}
+.contact-details h2 {
+  margin-bottom: 10px;
+}
+
+.add-contact-button {
+  margin-top: 20px;
+}
+
+/* Styling for the table */
+.MuiTableContainer-root {
+  margin-top: 20px;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+}
+
+.MuiButton-root {
+  margin-right: 10px;
+}
+/* .table-container {
+  background-color: lightgrey;
+} */
+
+.back{
+  background-color: whitesmoke;
+}
+
