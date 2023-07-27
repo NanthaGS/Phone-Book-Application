@@ -1,0 +1,69 @@
+/* EditContact.css */
+
+.edit-contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .edit-contact-form {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    height:100vh;
+  }
+  
+  .edit-contact-form h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .edit-contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-contact-form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .edit-contact-form .MuiButton-root {
+    margin-top: 20px;
+  }
+  
+  .edit-contact-form .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  
+  /* Custom styles for Input Label */
+  .MuiInputLabel-root {
+    color: #333;
+  }
+  
+  /* Custom styles for Input Field */
+  .MuiOutlinedInput-root {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  /* Custom styles for Input Border on Focus */
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #1877f2;
+  }
+  
+  /* Custom styles for Save Button */
+  .MuiButton-containedPrimary {
+    background-color: #1877f2;
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #0f6ad9;
+  }
+  

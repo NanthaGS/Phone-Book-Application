@@ -1,0 +1,186 @@
+/* .profile-container {
+  background-color: linear-gradient(45deg,white,whitesmoke,grey);
+  color:black;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-info-item {
+  margin-bottom: 5px;
+}
+
+.profile-info-label {
+  font-weight: bold;
+}
+
+.profile-actions {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-button{
+  background-color: crimson;
+  display:block;
+  padding:15px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search-button:hover{
+  background-color: red;
+  transform: scale(1.15);
+  transition: 0.3s ease-in-out;
+}
+
+.profile-action-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile-bio {
+  margin-bottom: 20px;
+}
+
+.profile-bio-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-bio-content {
+  line-height: 1.5;
+} */
+
+
+/* Profile.css */
+.back {
+  width: 100%;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.mainH {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.profile-info-item {
+  margin: 8px 0;
+}
+
+.profile-info-label {
+  font-weight: bold;
+}
+
+/* .profile-actions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
+.edit-button {
+  padding: 8px 15px;
+  background-color: #0077b5; /* LinkedIn blue color */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.edit-button:hover{
+  background-color: red;
+  transform: scale(1.15);
+  transition: 0.3s ease-in-out;
+}
+
+.profile-bio {
+  margin-top: 30px;
+}
+
+.profile-bio-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.profile-bio-content {
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+}
